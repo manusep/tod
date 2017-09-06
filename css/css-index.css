@@ -32,7 +32,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration: none
 }
 p {
-	padding: 0 0 1em;
+	padding: 0;
 	margin:0;
 }
 a {
@@ -110,11 +110,11 @@ a:hover {
 	background: transparent;
 	transition: all 0.4s;
 	color: #fff;
-	border-radius: 100px;
+	text-transform: uppercase;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-	border: 2px solid #3eb0f7;
-	background: #3eb0f7;
+	border: 2px solid #FF7171;
+	background: #FF7171;
 	color: white;
 }
 .btn-primary {
@@ -157,7 +157,7 @@ a:hover {
 	height: 37px
 }
 .logo {
-	margin: 100px 0 40px 0;
+	margin: 25px 0 40px 0;
 }
 .logo img{
 	width: 150px;
@@ -589,7 +589,7 @@ a:hover {
 #contact-form .btn {
 	height: 55px;
 	width: 100%;
-	background-color: #3eb0f7;
+	background-color: #FF7171;
 	color: #ffffff;
 	font-size: 17px !important;
 	line-height: 18px;
@@ -599,9 +599,10 @@ a:hover {
 	margin: 0;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
+	text-transform: uppercase;
 }
 #contact-form .btn:hover {
-	background-color: #1f96e0;
+	background-color: #ff5d5d;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
@@ -624,16 +625,16 @@ a:hover {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	color: #3eb0f7;
+	color: #FF7171;
 	border-radius: 50%;
 	background: #fff;
-	border: solid 1px #3eb0f7;
+	border: solid 1px #FF7171;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
 .social li a:hover {
 	color: #fff;
-	background: #3eb0f7;
+	background: #FF7171;
 }
 #shortcode-basic {
 	padding: 70px 0 10px;
