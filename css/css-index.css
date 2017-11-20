@@ -624,8 +624,8 @@ ul, ol {
 }
 .social li {
 	display: inline-block;
-	padding-right: .3em;
 	padding-bottom: .3em;
+	padding-left: 0;
 }
 .social li a {
 	display: block;
